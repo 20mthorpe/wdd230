@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@700&family=Roboto:wght@100&display=swap');
 
+
 body {
     background-color: lavender;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
+    
 }
 
 /* html selectors */
@@ -12,8 +14,19 @@ h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
 
+nav {
+    background-color: aliceblue;
+    margin: 0 auto;
+    max-width: 800px;
+}
+nav ul {
+
+}
 
 
 /* class selectors */
+.active {
+    color: deepskyblue;
+}
 
 /* id selectors */
