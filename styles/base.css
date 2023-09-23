@@ -3,30 +3,71 @@
 
 
 body {
-    background-color: lavender;
+    background-color: #AEC3B0;
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
-    
+    color: #01161E;
 }
 
 /* html selectors */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
+h1 {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid white;
+    /* color: #124559; */
+    
+}
 
 nav {
-    background-color: aliceblue;
+    background-color: #598392;
     margin: 0 auto;
-    max-width: 800px;
+    text-align: center;
 }
 nav ul {
-
+    list-style-type: none;
+    background-color: #598392;
+}
+nav a {
+    padding: 1rem;
+    text-decoration: none;
+    color:#EFF6E0;
+}
+nav a:hover {
+    /* border: 1px solid white; */
+    background-color: #EFF6E0;
+    color: #124559;
+}
+nav li {
+    display: inline-block;
 }
 
+footer {
+    background-color: #124559;
+    color: #EFF6E0;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    padding: 20px;
+}
+
+section {
+    border: 2px #EFF6E0;
+}
 
 /* class selectors */
 .active {
-    color: deepskyblue;
+    color: #598392;
 }
 
 /* id selectors */

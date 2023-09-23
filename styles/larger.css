@@ -1,6 +1,12 @@
-@media only screen and (device-width: 360px){
+@media (min-width: 640px){
     body {
-        background-color: lavenderblush;
+        
+        nav ul {
+            display: flex;
+        }
+        nav ul li {
+            flex: 1 1 100%;
+        }
     }
     /* this is where you change the nav!! */
 }
