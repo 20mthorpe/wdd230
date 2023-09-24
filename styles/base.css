@@ -81,13 +81,13 @@ img {
 }
 
 #learn {
-    grid-column-start: 1/2;
+    grid-column-start: 1;
     padding: 10px;
     border: 2px #598392;
 }
 
 #info {
-    grid-column-start: 2/3;
+    grid-column-start: 2;
     padding: 10px;
 }
 
