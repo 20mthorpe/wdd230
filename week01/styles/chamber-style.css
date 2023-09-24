@@ -1,0 +1,52 @@
+body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: #415A77;
+    color: white;
+    /* text-align: center; */
+    padding: 20px;
+}
+
+main {
+    border: 2px #415A77;
+}
+
+img {
+    max-width: 80%;
+}
+
+footer {
+    background-color: #415A77;
+    color: white;
+    padding: 20px;
+}
+
+#title {
+    background-color: #778DA9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#middlesection {
+    background-color: #75704E;
+    color: white;
+    padding: 20px;
+}
+
+#colors {
+    padding: 20px;
+    color: #3B1616;
+}
+
+#bottomsection {
+    background-color: #778DA9;
+    color: white;
+    padding: 20px;
+}
+
