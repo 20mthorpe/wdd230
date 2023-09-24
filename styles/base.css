@@ -7,12 +7,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
     color: #01161E;
+
 }
 
 /* html selectors */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
+
 h1 {
     padding: 20px;
 }
@@ -22,9 +24,16 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border: 2px solid white;
+    background-color: #EFF6E0;
     /* color: #124559; */
     
+}
+
+main {
+    max-width: 10000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
 }
 
 nav {
@@ -43,8 +52,8 @@ nav a {
 }
 nav a:hover {
     /* border: 1px solid white; */
-    background-color: #EFF6E0;
-    color: #124559;
+    /* color: #EFF6E0; */
+    background-color: #124559;
 }
 nav li {
     display: inline-block;
@@ -61,13 +70,36 @@ img {
     padding: 20px;
 }
 
-section {
-    border: 2px #EFF6E0;
-}
-
 /* class selectors */
 .active {
     color: #598392;
 }
 
 /* id selectors */
+#maintitle {
+    grid-column: 1/3;
+}
+
+#learn {
+    grid-column-start: 1/2;
+    padding: 10px;
+    border: 2px #598392;
+}
+
+#info {
+    grid-column-start: 2/3;
+    padding: 10px;
+}
+
+#weeklinks, #informationbox {
+    text-align: left;
+    background-color: #EFF6E0;
+    list-style: none;
+}
+
+#learnh3, #infoh3 {
+    background-color: #598392;
+    color:#EFF6E0;
+    font-family: 'Montserrat', sans-serif;
+}
+

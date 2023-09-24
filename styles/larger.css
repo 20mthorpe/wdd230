@@ -4,8 +4,13 @@
         nav ul {
             display: flex;
         }
+
         nav ul li {
             flex: 1 1 100%;
+        }
+
+        main {
+            grid-template-columns: 1fr;
         }
     }
     /* this is where you change the nav!! */
