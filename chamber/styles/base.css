@@ -1,0 +1,48 @@
+body {
+    padding: 1rem;
+    font-family: "Quicksand", sans-serif;
+    background-color: #75704E;
+    color: white;
+}
+
+nav {
+    background-color: #415A77;
+    padding: 1em;
+    /* margin: 0 auto; */
+}
+
+/* nav ul { 
+    align-items: center;
+    justify-content: center;
+} */
+
+nav a:hover {
+    background-color: #778DA9;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+}
+
+ul li {
+    padding: 0.5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+img {
+    max-width: 90%;
+}
