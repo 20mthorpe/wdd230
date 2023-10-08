@@ -40,12 +40,6 @@ section {
     background-color: #415A77;
 }
 
-main {
-    display: grid;
-    /* grid-template-columns: 1fr; */
-    /* grid-template-rows: 2fr 1fr 1fr; */
-}
-
 button {
     padding: 0.5rem;
     margin-top: 1em;
@@ -59,6 +53,15 @@ footer {
     padding: 1em;
 }
 
+.open {
+	/* display: block; */
+	width: 100%;
+}
+.open li {
+    display: block;
+}
+
+
 /* id selectors */
 #maintitle {
     text-align: center;
@@ -67,16 +70,11 @@ footer {
     color: #3B1616;
 }
 
-
-/* small view navigation */
 #menu {
 font-size: 1.5rem;
-padding: .25rem .75rem;
-background-color: #eee;
-color: #3B1616;
-/* position: absolute; */
-top: 1rem;
-right: 1rem;
+padding: 1rem;
+background-color: #3B1616;
+color: white;
 }
 
 #menu::before {
@@ -84,5 +82,5 @@ content: "☰";
 }
 
 #menu.open::before {
-content: "❎";
+content: "x";
 }
