@@ -84,3 +84,11 @@ content: "☰";
 #menu.open::before {
 content: "x";
 }
+
+#dark {
+	position: absolute;
+    right: 2em;
+    top: .75em;
+	font-size: 1rem;
+	cursor: pointer;
+}
