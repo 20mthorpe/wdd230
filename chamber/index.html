@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
@@ -32,6 +33,7 @@
 
     </header>
     <nav>
+        <button id="menu"></button>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Discover</a></li>
@@ -40,18 +42,22 @@
         </ul>
     </nav>
     <main>
-        <button>Sign Up</button>
-        <h1>Syracuse City Chamber of Commerce</h1>
-        <img src="images/hero_image.jpeg" alt="Antelope Island State Park">
-        <section>
+        <div id="maintitle">
+            <h1>Syracuse City Chamber of Commerce</h1>
+            <button id="signup">Sign Up</button>
+        </div>
+        <div id="heroimg">
+            <img src="images/hero_image.jpeg" alt="Antelope Island State Park">
+        </div>
+        <section id="curevents">
             <h3>Current Events</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis dignissimos. Harum, perspiciatis? In et accusamus officia fuga incidunt officiis tenetur nemo dolore cupiditate, at repellendus quibusdam debitis optio nam!</p>
         </section>
-        <section>
+        <section id="weather">
             <h3>Weather</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint fugiat culpa aliquam fuga, magnam possimus nobis excepturi earum soluta quidem itaque, impedit distinctio, odio vero et ducimus optio. Iusto?</p>
         </section>
-        <section>
+        <section id="companyspot">
             <h3>Company Spotlights</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, eaque hic aspernatur sunt nam delectus natus laborum ut quibusdam repellat exercitationem sit eos aperiam, minus, aliquid nihil repudiandae placeat aliquam?</p>
         </section>
@@ -60,9 +66,10 @@
         <p id="copyright">
             &copy;
             <span id="year"></span> |
-            Mary Thorpe | Utah, USA</p>
+            Mary Thorpe | BYUI - WDD 230 | Utah, USA</p>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/footer.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

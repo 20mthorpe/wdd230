@@ -1,0 +1,26 @@
+/* Reset default styles */
+html, body, div, h1, h2, p, ul, li, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Standardize box sizing */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Normalize typography */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Normalize form elements */
+  input, textarea, select {
+    font-size: 100%;
+  }
+  
+  /* Add other styles as needed for your project */
+  
