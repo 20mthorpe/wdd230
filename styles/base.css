@@ -96,6 +96,8 @@ img {
     text-align: left;
     background-color: #EFF6E0;
     list-style: none;
+    padding: 10px;
+    line-height: 1.5em;
 }
 
 #learnh3, #infoh3 {
