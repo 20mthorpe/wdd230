@@ -132,7 +132,7 @@ main {
     position: absolute;
     padding: .5em;
     background-color: #EFF6E0;
-    text-size-adjust: 1rem;
+    /* text-size-adjust: 1rem; */
     top: 55%;
     left: 10%;
 
