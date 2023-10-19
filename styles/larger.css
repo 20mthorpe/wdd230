@@ -1,5 +1,6 @@
 @media screen and (min-width: 32rem) {
 
+    /*  */
     nav ul {
         flex-direction: row;
     }
@@ -8,11 +9,14 @@
         flex: 1 1 100%;
     }
 
+
+    /* By ID */
     #grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
+    /* By Class */
     .maintitle {
         grid-column: 1 / 3;
     }

@@ -36,13 +36,13 @@
         </ul>
     </nav>
     <main>
-        <div id="hero">
+        <div class="hero">
             <div class="overlaytext">
                 <h3>Rome Italy Temple</h3>
             </div>
             <picture>
                 <source media="(max-width: 500px)" srcset="images/rome-temple-small.webp">
-                <img src="images/rome-temple-large.webp" alt="Rome Temple" width="960" height="800">
+                <img src="images/rome-temple-large.webp" alt="Rome Temple" width="960" height="800" loading="lazy">
             </picture>
         </div>
         <div id="grid">
@@ -61,7 +61,13 @@
             </section>
             <section id="info">
                 <h3 id="infoh3">Information</h3>
-                <p id="informationbox"></p>
+                <p id="informationbox">
+                    <div id="weather"></div>
+                    <div id="visitcount">
+                        <p></p>
+                    </div>
+
+                </p>
             </section>
         </div>
         <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96235.04137486352!2d-112.15875523832443!3d41.08330715031707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752fd0925f39bdd%3A0x66de35e949280ee1!2sSyracuse%2C%20UT!5e0!3m2!1sen!2sus!4v1697553347848!5m2!1sen!2sus" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -33,12 +33,12 @@ main {
 }
 
 nav {
-    background-color: #598392;
+    background-color: #283f48;
     margin: 0 auto;
 }
 nav ul {
     list-style-type: none;
-    background-color: #598392;
+    background-color: #283f48;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -51,7 +51,8 @@ nav a {
     color:#EFF6E0;
 }
 nav a:hover {
-    background-color: #124559;
+    background-color: #EFF6E0;
+    color:#01161E;
 }
 nav li {
     display: inline-block;
@@ -83,7 +84,7 @@ img {
 #learn {
     /* grid-column-start: 1; */
     padding: 10px;
-    border: 2px #598392;
+    /* border: 2px #598392; */
 }
 
 #info {
@@ -98,7 +99,7 @@ img {
 }
 
 #learnh3, #infoh3 {
-    background-color: #598392;
+    background-color: #283f48;
     color:#EFF6E0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -108,7 +109,7 @@ img {
     width: 100%;
 }
 
-#hero img {
+.hero img {
     width: 93%;
     height: auto;
 }
@@ -117,16 +118,20 @@ img {
     text-align: center;
 }
 
+#informationbox {
+    background-color: #EFF6E0;
+}
+
 main {
     display:block;
 }
 
 .overlaytext {
     position: absolute;
-    padding: 1em;
+    padding: .5em;
     background-color: #EFF6E0;
     text-size-adjust: 1em;
-    top: 50%;
+    top: 55%;
     left: 10%;
 
 }
