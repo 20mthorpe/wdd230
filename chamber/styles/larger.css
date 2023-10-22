@@ -44,7 +44,7 @@
         /* grid-template-rows: 1fr 1fr 1fr; */
     }
     
-    #imgdevmap, #imgtempground, #imgstokerpark {
+    #imgdevmap, #imgtempground, #imgstokerpark, #imgsecondwater {
         grid-column: 2/3;
         padding: 1em;
     }
