@@ -48,5 +48,9 @@
         grid-column: 2/3;
         padding: 1em;
     }
+
+    #imgdevmap:hover, #imgtempground:hover, #imgstokerpark:hover, #imgsecondwater:hover {
+        opacity: .65;
+    }
    
 }
