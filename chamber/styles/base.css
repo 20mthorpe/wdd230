@@ -15,6 +15,10 @@ nav a:hover {
     background-color: #778DA9;
 }
 
+p {
+    font-size: small;
+}
+
 li {
     list-style: none;
 }
@@ -37,7 +41,6 @@ ul {
 
 section {
     padding: 1em;
-    background-color: #415A77;
 }
 
 button {
@@ -54,7 +57,7 @@ footer {
 }
 
 .open {
-	/* display: block; */
+    /* display: block; */
 	width: 100%;
 }
 .open li {
@@ -70,6 +73,9 @@ footer {
     color: #3B1616;
 }
 
+#weather, #curevents, #companyspot {
+    background-color: #415A77;
+}
 #menu {
 font-size: 1.5rem;
 padding: 1rem;

@@ -6,7 +6,6 @@
     ul li {
         display: unset;
     }
-    
 
     #mainhome {
         display: grid;
@@ -37,4 +36,17 @@
     #menu {
         display: none;
     }
+
+    
+    .discovermain {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        /* grid-template-rows: 1fr 1fr 1fr; */
+    }
+    
+    #imgdevmap, #imgtempground, #imgstokerpark {
+        grid-column: 2/3;
+        padding: 1em;
+    }
+   
 }
