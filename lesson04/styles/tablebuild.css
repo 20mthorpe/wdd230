@@ -1,0 +1,32 @@
+th, td {
+    padding: .5em;
+}
+
+caption {
+    caption-side: bottom;
+    background-color: #5C4033;
+    color: white;
+    padding: .5em;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+table {
+    background-color: black;
+    text-align: center;
+}
+
+.grey {
+    background-color: rgb(93, 93, 93);
+}
+
+tbody {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
