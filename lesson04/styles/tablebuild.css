@@ -31,3 +31,7 @@ tbody {
 tbody tr:nth-child(even) {
     background-color: lightgray;
 }
+
+/*.title {
+    font-weight: 300;
+}*/
