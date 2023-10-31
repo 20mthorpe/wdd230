@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@700&family=Roboto:wght@100&display=swap');
 
+:root {
+    --main-color: #AEC3B0;
+    --accent-color: #283f48;
+    --lightest-color: #EFF6E0;
+    --darkest-color: #01161E;
+}
 
 body {
-    background-color: #AEC3B0;
+    background-color: var(--main-color);
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
-    color: #01161E;
+    color: var(--darkest-color);
 }
 
 /* html selectors */
@@ -23,7 +29,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #EFF6E0;
+    background-color: var(--lightest-color);
     /* color: #124559; */
     
 }
@@ -33,12 +39,12 @@ main {
 }
 
 nav {
-    background-color: #283f48;
+    background-color: var(--accent-color);
     margin: 0 auto;
 }
 nav ul {
     list-style-type: none;
-    background-color: #283f48;
+    background-color: var(--accent-color);
     padding: 15px;
     display: flex;
     align-items: center;
@@ -48,11 +54,11 @@ nav ul {
 nav a {
     padding: 15px;
     text-decoration: none;
-    color:#EFF6E0;
+    color:var(--lightest-color);
 }
 nav a:hover {
-    background-color: #EFF6E0;
-    color:#01161E;
+    background-color: var(--lightest-color);
+    color:var(--darkest-color);
 }
 nav li {
     display: inline-block;
@@ -60,7 +66,7 @@ nav li {
 
 footer {
     background-color: #124559;
-    color: #EFF6E0;
+    color: var(--lightest-color);
     text-align: center;
     padding: 20px;
 }
@@ -94,15 +100,15 @@ img {
 
 #weeklinks, #informationbox {
     text-align: left;
-    background-color: #EFF6E0;
+    background-color: var(--lightest-color);
     list-style: none;
     padding: 10px;
     line-height: 1.5em;
 }
 
 #learnh3, #infoh3 {
-    background-color: #283f48;
-    color:#EFF6E0;
+    background-color: var(--accent-color);
+    color:var(--lightest-color);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -121,7 +127,7 @@ img {
 }
 
 #informationbox {
-    background-color: #EFF6E0;
+    background-color: var(--lightest-color);
 }
 
 main {
@@ -131,7 +137,7 @@ main {
 .overlaytext {
     position: absolute;
     padding: .5em;
-    background-color: #EFF6E0;
+    background-color: var(--lightest-color);
     /* text-size-adjust: 1rem; */
     top: 55%;
     left: 10%;
