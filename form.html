@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+
+    <header>
+        <img id="me" src="images/me.webp" alt="Picture of Mary Thorpe">
+        <h1>Mary Thorpe</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Rate My Page</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Information</legend>
+                <label class="top">Username* <input type="text" id="username" name="username" required></label>
+                <label class="top">Password* <input type="password" id="password" name="password" pattern="[a-zA-Z].{8,}" required></label>
+                <label class="top">Email <input type="email" id="email" name="email" placeholder="someone@gmail.com" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+                <label class="top">Page Rating <input type="range" id="rating" name="rating" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </label>
+
+            </fieldset>
+
+            <div id="submitButton">
+                <input type="submit" value="Submit My Rating" class="submitButton">
+            </div>
+    </main>
+
+    <footer>
+        <p id="copyright">
+            &copy;
+            <span id="year"></span> |
+            Mary Thorpe | Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
