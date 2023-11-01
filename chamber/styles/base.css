@@ -1,8 +1,8 @@
 body {
     padding: 1rem;
     font-family: "Quicksand", sans-serif;
-    background-color: #75704E;
-    color: white;
+    /* background-color: #75704E; */
+    /* color: white; */
 }
 
 
@@ -16,7 +16,7 @@ nav a:hover {
 }
 
 p {
-    font-size: small;
+    font-size: .75em;
 }
 
 li {
@@ -69,13 +69,15 @@ footer {
 #maintitle {
     text-align: center;
     padding: 2em;
-    background-color: white;
-    color: #3B1616;
+    /* background-color: white; */
+    /* color: #3B1616; */
 }
 
 #weather, #curevents, #companyspot {
     background-color: #415A77;
+    color: white;
 }
+
 #menu {
 font-size: 1.5rem;
 padding: 1rem;
