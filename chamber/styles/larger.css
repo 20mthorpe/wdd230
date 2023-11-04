@@ -58,4 +58,13 @@
         text-align: center;
         padding-top: 10px;
     }
+
+    #join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+
 }

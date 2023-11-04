@@ -132,3 +132,7 @@ h1 {
 .submitButton {
     padding: 1em;
 }
+
+#membership h2 {
+    text-align: center;
+}
