@@ -52,14 +52,26 @@
                 <label class="top">Email <input type="email" id="email" name="email" placeholder="someone@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" title="Please enter a valid email address" required></label>
                 <label class="top">Phone <input type="tel" name="phone" id="phone" placeholder="1233455678" required></label>
                 <label class="top">Organization Name <input type="text" name="organization" required id="organization"></label>
-
-                    
                 
-
+                <label class="top">Membership Level
+                    <select name="membership">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="np">Non-Profit Membership - Free</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>    
+                
+                <label class="top">Organization Description</label>
+                <textarea name="organizationdesc" id="organizationdesc"></textarea>
+                
+                <input type="hidden" name="timestamp" id="timestamp">
+                
             </fieldset>
 
             <div id="submitButton">
-                <input type="submit" value="Submit Form" class="submitButton">
+                <input type="submit" value="Submit Form" class="submitButton"></div>
             </div>
     </main>
     <footer>
