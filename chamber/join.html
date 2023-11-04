@@ -38,29 +38,29 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="#">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Join</a></li>
         </ul>
     </nav>
-    <main id="mainhome">
-        <div id="maintitle">
-            <h1>Syracuse City Chamber of Commerce</h1>
-            <button id="signup">Sign Up</button>
-        </div>
-        <div id="heroimg">
-            <img src="images/hero_image.jpeg" alt="Antelope Island State Park" loading="lazy">
-        </div>
-        <section id="curevents">
-            <h3>Current Events</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis dignissimos. Harum, perspiciatis? In et accusamus officia fuga incidunt officiis tenetur nemo dolore cupiditate, at repellendus quibusdam debitis optio nam!</p>
-        </section>
-        <section id="weather">
-            <h3>Weather</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint fugiat culpa aliquam fuga, magnam possimus nobis excepturi earum soluta quidem itaque, impedit distinctio, odio vero et ducimus optio. Iusto?</p>
-        </section>
-        <section id="companyspot">
-            <h3>Company Spotlights</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, eaque hic aspernatur sunt nam delectus natus laborum ut quibusdam repellat exercitationem sit eos aperiam, minus, aliquid nihil repudiandae placeat aliquam?</p>
-        </section>
+    <main>
+        <h1>Sign Up</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Information</legend>
+                <label class="top">First Name* <input type="text" id="fname" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" id="lname" name="lname" required></label>
+                <label class="top">Title <input type="text" id="title" name="title" pattern="[a-zA-Z -]{7,}" title="Please enter at least 7 characters."></label>
+                <label class="top">Email <input type="email" id="email" name="email" placeholder="someone@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" title="Please enter a valid email address" required></label>
+                <label class="top">Phone <input type="tel" name="phone" id="phone" placeholder="1233455678" required></label>
+                <label class="top">Organization Name <input type="text" name="organization" required id="organization"></label>
+
+                    
+                
+
+            </fieldset>
+
+            <div id="submitButton">
+                <input type="submit" value="Submit Form" class="submitButton">
+            </div>
     </main>
     <footer>
         <p id="copyright">
@@ -72,6 +72,5 @@
     <script src="scripts/footer.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/joinbutton.js"></script>
 </body>
 </html>

@@ -104,3 +104,31 @@ content: "x";
 a {
     color: grey;
 }
+
+fieldset {
+    max-width: 88px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    justify-content: left;
+    padding: .75em;
+}
+
+h1 {
+    text-align: center;
+}
+
+#submitButton {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    justify-self: auto;
+}
+
+.submitButton {
+    padding: 1em;
+}
