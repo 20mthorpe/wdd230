@@ -1,0 +1,29 @@
+{
+    "lastName": "Thorpe",
+    "moveInDate": "2007-10-14",
+    "numPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers":
+    [
+        {
+           "name": "Maria",
+           "gender": "Female",
+           "birthday": "1963-01-13"
+        },
+        {
+            "name": "Steve",
+            "gender": "Male",
+            "birthday": "1963-09-26"
+        },
+        {
+            "name": "Jenny",
+            "gender": "Female",
+            "birthday": "1999-11-07"
+        },
+        {
+            "name": "Mary",
+            "gender": "Female",
+            "birthday": "2001-10-20"
+        }
+    ]
+}
