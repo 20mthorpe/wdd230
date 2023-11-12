@@ -6,7 +6,8 @@ async function getProphetData() {
     const response = await fetch(url);
     const data = await response.json();
     if (response.ok) {
-        console.table(data.prophets);
+        //console.table(data.prophets);
+        displayProphets(data.prophets);
     }
 }
 
@@ -17,12 +18,20 @@ function displayProphets(prophets) {
         const fullName = document.createElement('h2');
         fullName.textContent = `${prophet.name} ${prophet.lastname}`;
 
-        const portrait = document.createElement('img');
-        
+        let portrait = document.createElement('img');
+
+        portrait.setAttribute('src', prophet.imageurl);
+        portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
+        portrait.setAttribute('loading', 'lazy');
+        portrait.setAttribute('width', '340');
+        portrait.setAttribute('height', '440');
+
         card.appendChild(fullName);
+        card.appendChild(portrait);
         cards.appendChild(card);
     });
 }
 
 getProphetData();
+//displayProphets(data.prophets);
 
