@@ -24,10 +24,11 @@ h2 {
 
 main {
     display: grid;
-    grid-template-columns: repeat(autofit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     background-color: lightgrey;
     box-shadow: 0 0 20px #777;
 }
+
 
 section {
   margin: 0.25rem;
