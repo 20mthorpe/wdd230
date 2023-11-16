@@ -99,11 +99,14 @@ img {
 }
 
 #weeklinks, #informationbox {
-    text-align: left;
     background-color: var(--lightest-color);
     list-style: none;
     padding: 10px;
     line-height: 1.5em;
+}
+
+#weeklinks {
+    text-align: left;
 }
 
 #learnh3, #infoh3 {
