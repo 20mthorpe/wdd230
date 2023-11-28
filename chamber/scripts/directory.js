@@ -27,7 +27,7 @@ async function displayMembers(members)
         logo.setAttribute('alt', `Logo of ${member.name}`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '300');
-        //logo.setAttribute('height', '440');
+        //logo.setAttribute('max-height', '300');
 
         card.appendChild(name);
         card.appendChild(logo);
@@ -37,19 +37,4 @@ async function displayMembers(members)
 }
 
 getMembers();
-
-
-
-
-
-async function getProphetData() {
-    const response = await fetch(url);
-    const data = await response.json();
-    if (response.ok) {
-        //console.table(data.prophets);
-        displayProphets(data.prophets);
-    }
-}
-
-//displayProphets(data.prophets);
 
