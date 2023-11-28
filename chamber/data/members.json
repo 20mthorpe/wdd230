@@ -12,5 +12,104 @@
     "url": "https://idahowebsites.com",
     "imgURL": "https://static.vecteezy.com/system/resources/thumbnails/003/731/316/small_2x/web-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg",
     "membershipLevel": "Gold"
+  },
+  {
+    "name": "TechVision",
+    "address": {
+      "street1": "789 Tech Street",
+      "street2": "Suite 200",
+      "city": "Silicon Valley",
+      "state": "California",
+      "zip": "94087"
+    },
+    "phone": "408-555-1234",
+    "url": "https://techvision.com",
+    "imgURL": "https://i.pinimg.com/originals/f8/b6/96/f8b696764eacde3c2e0b75f250ee39ac.jpg",
+    "membershipLevel": "Silver"
+  },
+  {
+    "name": "EcoSolutions",
+    "address": {
+      "street1": "450 Green Avenue",
+      "street2": "",
+      "city": "Portland",
+      "state": "Oregon",
+      "zip": "97201"
+    },
+    "phone": "503-987-6543",
+    "url": "https://ecosolutions.org",
+    "imgURL": "https://www.ecosolutions.org.nz/cdn/shop/files/ecosolutions_official_logo_2_1500x.jpg?v=1696981102",
+    "membershipLevel": "Bronze"
+  },
+  {
+    "name": "DataDynamics",
+    "address": {
+      "street1": "123 Data Drive",
+      "street2": "Floor 5",
+      "city": "New York City",
+      "state": "New York",
+      "zip": "10001"
+    },
+    "phone": "212-555-6789",
+    "url": "https://datadynamicsinc.com",
+    "imgURL": "https://www.datadynamicsinc.com/wp-content/uploads/2021/08/Data-Dynamics-Logo.png",
+    "membershipLevel": "Non-Profit"
+  },
+  {
+    "name": "AquaTech",
+    "address": {
+      "street1": "870 Bluewater Boulevard",
+      "street2": "",
+      "city": "Miami",
+      "state": "Florida",
+      "zip": "33101"
+    },
+    "phone": "305-222-9999",
+    "url": "https://aquatechinc.com",
+    "imgURL": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e7d400d0-741f-4dcf-9a0b-7f8924d9a5e3/d5574hz-d530a7f5-86e9-427c-a712-e03e0aa313bc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U3ZDQwMGQwLTc0MWYtNGRjZi05YTBiLTdmODkyNGQ5YTVlM1wvZDU1NzRoei1kNTMwYTdmNS04NmU5LTQyN2MtYTcxMi1lMDNlMGFhMzEzYmMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SVjeMNJN97D-1P1mf3liQNJyAXnbbZjfC3vSSD6fNV0",
+    "membershipLevel": "Non-Profit"
+  },
+  {
+    "name": "InnoTech Solutions",
+    "address": {
+      "street1": "567 Innovation Avenue",
+      "street2": "Suite 300",
+      "city": "Austin",
+      "state": "Texas",
+      "zip": "78701"
+    },
+    "phone": "512-333-4444",
+    "url": "https://innotechsolutions.com",
+    "imgURL": "https://www.park.by/upload/iblock/aec/m079psazoptsiojaxp9jt7a0eruq0qcm.png",
+    "membershipLevel": "Silver"
+  },
+  {
+    "name": "GlobalCom",
+    "address": {
+      "street1": "999 Communication Road",
+      "street2": "",
+      "city": "Chicago",
+      "state": "Illinois",
+      "zip": "60601"
+    },
+    "phone": "312-777-8888",
+    "url": "https://globalcom.net",
+    "imgURL": "https://c.atlasied.com/uploaded/globalcom/GLOBALCOM-Logo.png",
+    "membershipLevel": "Bronze"
+  },
+  {
+    "name": "SecureNet Solutions",
+    "address": {
+      "street1": "321 Security Street",
+      "street2": "",
+      "city": "San Francisco",
+      "state": "California",
+      "zip": "94105"
+    },
+    "phone": "415-123-4567",
+    "url": "https://securenetsolutions.com",
+    "imgURL": "https://www.cyberark.com/wp-content/uploads/2014/12/secure2.png",
+    "membershipLevel": "Gold"
   }
 ]
+
