@@ -1,5 +1,16 @@
 const dataLink = "data/members.json";
-const cards = document.querySelector('#cards');
+const cards = document.querySelector('.members');
+
+var gridButton = document.querySelector('#gridButton');
+var listButton = document.querySelector('#listButton');
+
+gridButton.addEventListener('click', function() {   
+    cards.id = 'cards';
+});
+
+listButton.addEventListener('click', function() {
+    cards.id = 'memberlist';
+});
 
 async function getMembers(){
 
@@ -7,7 +18,7 @@ async function getMembers(){
     const result = await response.json();
 
     if (response.ok) {
-        console.log(result);
+        //console.log(result);
         displayMembers(result);
     }
 
@@ -15,24 +26,36 @@ async function getMembers(){
 
 async function displayMembers(members)
 {
-    members.forEach(member => {
-        const card = document.createElement('section');
+    //if (cards.id == "cards") {
 
-        const name = document.createElement('h2');
-        name.textContent = `${member.name}`;
+        members.forEach(member => {
 
-        let logo = document.createElement('img');
+            const card = document.createElement('section');
+    
+            const name = document.createElement('h2');
+            name.textContent = `${member.name}`;
+    
+            let logo = document.createElement('img');
+    
+            logo.setAttribute('src', member.imgURL);
+            logo.setAttribute('alt', `Logo of ${member.name}`);
+            logo.setAttribute('loading', 'lazy');
+            logo.setAttribute('width', '300');
+            //logo.setAttribute('max-height', '300');
+    
+            card.appendChild(name);
+            card.appendChild(logo);
+            cards.appendChild(card);
+        });
+   //}
 
-        logo.setAttribute('src', member.imgURL);
-        logo.setAttribute('alt', `Logo of ${member.name}`);
-        logo.setAttribute('loading', 'lazy');
-        logo.setAttribute('width', '300');
-        //logo.setAttribute('max-height', '300');
+    //else {
 
-        card.appendChild(name);
-        card.appendChild(logo);
-        cards.appendChild(card);
-    });
+        //members.forEach(member => {
+
+            
+        //});
+    //}
     //console.log(members[0].name);
 }
 
