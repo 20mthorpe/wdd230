@@ -138,6 +138,7 @@ h1 {
 }
 
 
+/* Directory Page */
 .view {
     text-align: center;
 }
@@ -150,6 +151,7 @@ h1 {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* align-items: center; */
 }
 
 .cards section {
@@ -162,8 +164,6 @@ h1 {
     flex-direction: column;
 }
 
-
-
 .memberlist img {
     display: none;
 }
@@ -175,6 +175,10 @@ h1 {
     outline: solid;
     text-align: left;
     align-items: center;
+}
+
+.memberlist section:nth-child(odd) {
+    background-color: #bbcbe0;
 }
 
 .memberlist section :nth-child(4) {
