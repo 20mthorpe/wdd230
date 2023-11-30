@@ -176,3 +176,7 @@ h1 {
     text-align: left;
     align-items: center;
 }
+
+.memberlist section :nth-child(4) {
+    text-align: right;
+}

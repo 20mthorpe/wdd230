@@ -48,7 +48,7 @@ async function displayMembers(members) {
         addressLines.push(" "+member.address[line]);
       }
     }
-    console.log(addressLines);
+    //console.log(addressLines);
 
     displayAddress.textContent = addressLines;
 
