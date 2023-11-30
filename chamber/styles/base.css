@@ -147,15 +147,32 @@ h1 {
     max-height: 300px;
 }
 
-#cards {
+.cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-#memberlist {
+.cards section {
+    outline: solid;
+    margin: 10px;
+}
+
+.memberlist {
     display: flex;
     flex-direction: column;
 }
-#memberlist img {
+
+
+
+.memberlist img {
     display: none;
+}
+
+.memberlist section {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1fr;
+    margin: 10px;
+    outline: solid;
+    text-align: left;
+    align-items: center;
 }
