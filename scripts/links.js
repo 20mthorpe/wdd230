@@ -1,5 +1,5 @@
-const linksURL = "../data/links.json";
-const baseURL = "../index.html";
+const linksURL = "data/links.json";
+const baseURL = "index.html";
 const weekList = document.querySelector("#linklist");
 
 async function getData() {
