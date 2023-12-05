@@ -76,6 +76,20 @@ footer {
 #weather, #curevents, #companyspot {
     background-color: #415A77;
     color: white;
+    outline: solid;
+}
+
+#spotlight h2 {
+    padding-bottom: 20px;
+}
+
+#spotlight img {
+    background-color: white;
+}
+
+.weatherbox, #spotlight {
+    text-align: center;
+    line-height: 2.5rem;
 }
 
 #menu {
@@ -185,3 +199,8 @@ h1 {
 .memberlist section :nth-child(4) {
     text-align: right;
 }
+
+#curevents a {
+    color: white;
+}
+
