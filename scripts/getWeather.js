@@ -30,7 +30,8 @@ async function apiFetch() {
 }
     
 function displayResults(data) {
-    currentWeather.innerHTML = `Current Weather: ${data.main.temp}&deg;F`;
+    console.log(data);
+    currentWeather.innerHTML = `Current Weather: ${data.main.temp}&deg;F - ${data.weather[0].description}`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const description = data.weather[0].description;
     //console.log(iconsrc);
