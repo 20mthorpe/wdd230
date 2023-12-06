@@ -204,3 +204,10 @@ h1 {
     color: white;
 }
 
+.banner {
+    background-color: #bbcbe0;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
