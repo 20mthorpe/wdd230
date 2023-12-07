@@ -79,15 +79,15 @@ footer {
     outline: solid;
 }
 
-#spotlight h2 {
+#companyspot h2 {
     padding-bottom: 20px;
 }
 
-#spotlight img {
+#companyspot img {
     background-color: white;
 }
 
-.weatherbox, #spotlight {
+.weatherbox, #companyspot {
     text-align: center;
     line-height: 2.5rem;
 }

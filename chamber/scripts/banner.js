@@ -5,7 +5,7 @@ const quitBanner = document.querySelector("#quitbanner");
 const now = new Date();
 const day = now.getDay();
 
-console.log(day);
+//console.log(day);
 
 if ([1,2,3].includes(day)){
     bannerContent.textContent = "Please attend our Chamber of Commerce meet and greet! Wednesdays at 7:00pm";

@@ -1,5 +1,5 @@
 const dataLink = "data/members.json";
-const spotlight = document.querySelector("#spotlight");
+const spotlight = document.querySelector("#companyspot");
 
 //var gridButton = document.querySelector("#gridButton");
 //var listButton = document.querySelector("#listButton");

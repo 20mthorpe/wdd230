@@ -1,6 +1,6 @@
 
 const currentWeather = document.querySelector('#currentweather');
-const weatherIcon = document.querySelector('#weathericon');
+const weatherIconContainer = document.querySelector('#weathericon');
 const threeday = document.querySelector('#threeday');
     
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=41.0896&lon=-112.0639&appid=9154e747c1885dfaeb00fd30637c9ba2&units=imperial';
@@ -42,8 +42,10 @@ function displayCurrent(data) {
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const description = data.weather[0].description;
     //console.log(iconsrc);
+    const weatherIcon = document.createElement('img');
     weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', `image of ${description}`)
+    weatherIcon.setAttribute('alt', `image of ${description}`);
+    weatherIconContainer.appendChild(weatherIcon);
 }   
 
 function displayResults(data) {
